@@ -1,0 +1,149 @@
+function GodModeON()
+local char = game:GetService("Players").LocalPlayer.Character
+char.Head.CanTouch = false
+char.Torso.CanTouch = false
+char["Left Arm"].CanTouch = false
+char["Right Arm"].CanTouch = false
+char["Left Leg"].CanTouch = false
+char["Right Leg"].CanTouch = false
+char.HumanoidRootPart.CanTouch = false
+
+char.Head.CanCollide = false
+char.Torso.CanCollide = false
+char["Left Arm"].CanCollide = false
+char["Right Arm"].CanCollide = false
+char["Left Leg"].CanCollide = false
+char["Right Leg"].CanCollide = false
+char.HumanoidRootPart.CanCollide = false
+
+char.Head.CanQuery = false
+char.Torso.CanQuery = false
+char["Left Arm"].CanQuery = false
+char["Right Arm"].CanQuery = false
+char["Left Leg"].CanQuery = false
+char["Right Leg"].CanQuery = false
+char.HumanoidRootPart.CanQuery = false
+
+char.HeadPart.Middle.CanTouch = false
+char.Arm2.Middle.CanTouch = false
+char.Arm1.Middle.CanTouch = false
+char.Chest.Middle.CanTouch = false
+char.Chest.Sheathe.CanTouch = false
+char.Chest.SheatheEnd.CanTouch = false
+char.Leg1.Middle.CanTouch = false
+char.Leg2.Middle.CanTouch = false
+char.Tors.a.Head.CanTouch = false
+char.Tors.a.Torso.CanTouch = false
+char.Tors.a["Left Arm"].CanTouch = false
+char.Tors.a["Right Arm"].CanTouch = false
+char.Tors.a["Left Leg"].CanTouch = false
+char.Tors.a["Right Leg"].CanTouch = false
+char.Tors.a.RootPart.CanTouch = false
+
+char.HeadPart.Middle.CanCollide = false
+char.Arm2.Middle.CanCollide = false
+char.Arm1.Middle.CanCollide = false
+char.Chest.Middle.CanCollide = false
+char.Chest.Sheathe.CanCollide = false
+char.Chest.SheatheEnd.CanCollide = false
+char.Leg1.Middle.CanCollide = false
+char.Leg2.Middle.CanCollide = false
+char.Tors.a.Head.CanCollide = false
+char.Tors.a.Torso.CanCollide = false
+char.Tors.a["Left Arm"].CanCollide = false
+char.Tors.a["Right Arm"].CanCollide = false
+char.Tors.a["Left Leg"].CanCollide = false
+char.Tors.a["Right Leg"].CanCollide = false
+char.Tors.a.RootPart.CanCollide = false
+
+char.HeadPart.Middle.CanQuery = false
+char.Arm2.Middle.CanQuery = false
+char.Arm1.Middle.CanQuery = false
+char.Chest.Middle.CanQuery = false
+char.Chest.Sheathe.CanQuery = false
+char.Chest.SheatheEnd.CanQuery = false
+char.Leg1.Middle.CanQuery = false
+char.Leg2.Middle.CanQuery = false
+char.Tors.a.Head.CanQuery = false
+char.Tors.a.Torso.CanQuery = false
+char.Tors.a["Left Arm"].CanQuery = false
+char.Tors.a["Right Arm"].CanQuery = false
+char.Tors.a["Left Leg"].CanQuery = false
+char.Tors.a["Right Leg"].CanQuery = false
+char.Tors.a.RootPart.CanQuery = false
+end
+
+function GodModeOFF()
+local char = game:GetService("Players").LocalPlayer.Character
+char.Head.CanTouch = true
+char.Torso.CanTouch = true
+char["Left Arm"].CanTouch = true
+char["Right Arm"].CanTouch = true
+char["Left Leg"].CanTouch = true
+char["Right Leg"].CanTouch = true
+char.HumanoidRootPart.CanTouch = true
+
+char.Head.CanCollide = true
+char.Torso.CanCollide = true
+char["Left Arm"].CanCollide = true
+char["Right Arm"].CanCollide = true
+char["Left Leg"].CanCollide = true
+char["Right Leg"].CanCollide = true
+char.HumanoidRootPart.CanCollide = true
+
+char.Head.CanQuery = true
+char.Torso.CanQuery = true
+char["Left Arm"].CanQuery = true
+char["Right Arm"].CanQuery = true
+char["Left Leg"].CanQuery = true
+char["Right Leg"].CanQuery = true
+char.HumanoidRootPart.CanQuery = true
+
+char.HeadPart.Middle.CanTouch = true
+char.Arm2.Middle.CanTouch = true
+char.Arm1.Middle.CanTouch = true
+char.Chest.Middle.CanTouch = true
+char.Chest.Sheathe.CanTouch = true
+char.Chest.SheatheEnd.CanTouch = true
+char.Leg1.Middle.CanTouch = true
+char.Leg2.Middle.CanTouch = true
+char.Tors.a.Head.CanTouch = true
+char.Tors.a.Torso.CanTouch = true
+char.Tors.a["Left Arm"].CanTouch = true
+char.Tors.a["Right Arm"].CanTouch = true
+char.Tors.a["Left Leg"].CanTouch = true
+char.Tors.a["Right Leg"].CanTouch = true
+char.Tors.a.RootPart.CanTouch = true
+
+char.HeadPart.Middle.CanCollide = true
+char.Arm2.Middle.CanCollide = true
+char.Arm1.Middle.CanCollide = true
+char.Chest.Middle.CanCollide = true
+char.Chest.Sheathe.CanCollide = true
+char.Chest.SheatheEnd.CanCollide = true
+char.Leg1.Middle.CanCollide = true
+char.Leg2.Middle.CanCollide = true
+char.Tors.a.Head.CanCollide = true
+char.Tors.a.Torso.CanCollide = true
+char.Tors.a["Left Arm"].CanCollide = true
+char.Tors.a["Right Arm"].CanCollide = true
+char.Tors.a["Left Leg"].CanCollide = true
+char.Tors.a["Right Leg"].CanCollide = true
+char.Tors.a.RootPart.CanCollide = true
+
+char.HeadPart.Middle.CanQuery = true
+char.Arm2.Middle.CanQuery = true
+char.Arm1.Middle.CanQuery = true
+char.Chest.Middle.CanQuery = true
+char.Chest.Sheathe.CanQuery = true
+char.Chest.SheatheEnd.CanQuery = true
+char.Leg1.Middle.CanQuery = true
+char.Leg2.Middle.CanQuery = true
+char.Tors.a.Head.CanQuery = true
+char.Tors.a.Torso.CanQuery = true
+char.Tors.a["Left Arm"].CanQuery = true
+char.Tors.a["Right Arm"].CanQuery = true
+char.Tors.a["Left Leg"].CanQuery = true
+char.Tors.a["Right Leg"].CanQuery = true
+char.Tors.a.RootPart.CanQuery = true
+end
